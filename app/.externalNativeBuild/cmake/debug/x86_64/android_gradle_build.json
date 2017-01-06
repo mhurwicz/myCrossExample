@@ -1,0 +1,47 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/src/main/jni/CMakeLists.txt"
+	],
+	"cleanCommands" : 
+	[
+		"/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/cmake/3.6.3155560/bin/cmake --build /Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"SuperpoweredExample-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "SuperpoweredExample",
+			"buildCommand" : "/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/cmake/3.6.3155560/bin/cmake --build /Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/.externalNativeBuild/cmake/debug/x86_64 --target SuperpoweredExample",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-x86_64  -DSuperpoweredExample_EXPORTS -I/Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/src/main/jni/src/main/jni -I/Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Superpowered -isystem /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fsigned-char -I/Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Superpowered -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/src/main/jni/SuperpoweredExample.cpp",
+					"workingDirectory" : "/Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  -target x86_64-none-linux-android -gcc-toolchain /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-x86_64  -DSuperpoweredExample_EXPORTS -I/Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/src/main/jni/src/main/jni -I/Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Superpowered -isystem /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -fno-exceptions -fno-rtti -fsigned-char -I/Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Superpowered -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Superpowered/AndroidIO/SuperpoweredAndroidAudioIO.cpp",
+					"workingDirectory" : "/Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/build/intermediates/cmake/debug/obj/x86_64/libSuperpoweredExample.so",
+			"toolchain" : "6887347942870459744"
+		}
+	},
+	"toolchains" : 
+	{
+		"6887347942870459744" : 
+		{
+			"cCompilerExecutable" : "/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

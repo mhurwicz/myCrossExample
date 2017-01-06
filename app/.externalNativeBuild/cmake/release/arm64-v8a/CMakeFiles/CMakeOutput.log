@@ -1,0 +1,196 @@
+The target system is: Android - 21 - aarch64
+The host system is: Darwin - 15.6.0 - x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/cmake/3.6.3155560/bin/ninja" "cmTC_ca09c"
+[1/2] Building C object CMakeFiles/cmTC_ca09c.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_ca09c
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/cmake/3.6.3155560/bin/ninja" "cmTC_6a016"
+[1/2] Building C object CMakeFiles/cmTC_6a016.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_6a016
+Android clang version 3.8.256229  (based on LLVM 3.8.256229)
+Target: aarch64-none-linux-android
+Thread model: posix
+InstalledDir: /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64 -pie --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_6a016 /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_6a016.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtend_android.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/cmake/3.6.3155560/bin/ninja" "cmTC_6a016"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_6a016.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_6a016]
+  ignore line: [Android clang version 3.8.256229  (based on LLVM 3.8.256229)]
+  ignore line: [Target: aarch64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64 -pie --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_6a016 /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_6a016.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtend_android.o]
+    arg [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_6a016] ==> ignore
+    arg [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+    arg [-L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64]
+    arg [-L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
+    arg [-L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib] ==> dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib]
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_6a016.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  collapse library dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib64]
+  collapse library dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib]
+  collapse library dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib] ==> [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib]
+  implicit libs: [dl;c;dl]
+  implicit dirs: [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x;/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib64;/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib;/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/cmake/3.6.3155560/bin/ninja" "cmTC_7a543"
+[1/2] Building CXX object CMakeFiles/cmTC_7a543.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_7a543
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/cmake/3.6.3155560/bin/ninja" "cmTC_fbede"
+[1/2] Building CXX object CMakeFiles/cmTC_fbede.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_fbede
+Android clang version 3.8.256229  (based on LLVM 3.8.256229)
+Target: aarch64-none-linux-android
+Thread model: posix
+InstalledDir: /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Selected GCC installation: /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64 -pie --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_fbede /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_fbede.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtend_android.o
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-linux-android-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/mh/AndroidStudioProjects/Low-Latency-Android-Audio-iOS-Audio-Engine-master_v1.0.0/Android/CrossExample/app/.externalNativeBuild/cmake/release/arm64-v8a/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/cmake/3.6.3155560/bin/ninja" "cmTC_fbede"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_fbede.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_fbede]
+  ignore line: [Android clang version 3.8.256229  (based on LLVM 3.8.256229)]
+  ignore line: [Target: aarch64-none-linux-android]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld" --sysroot=/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64 -pie --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_fbede /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64 -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib -L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc --build-id --warn-shared-textrel --fatal-warnings --no-undefined -z noexecstack -z relro -z now --gc-sections -z nocopyreloc CMakeFiles/cmTC_fbede.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc -lgcc -ldl -lc -lgcc -lgcc -ldl /Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtend_android.o]
+    arg [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64] ==> ignore
+    arg [-pie] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [aarch64linux] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_fbede] ==> ignore
+    arg [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+    arg [-L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64]
+    arg [-L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib]
+    arg [-L/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib] ==> dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib]
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-znocopyreloc] ==> ignore
+    arg [CMakeFiles/cmTC_fbede.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib/crtend_android.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  remove lib [gcc]
+  collapse library dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x] ==> [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+  collapse library dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib/../lib64] ==> [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib64]
+  collapse library dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x/../../../../aarch64-linux-android/lib] ==> [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib]
+  collapse library dir [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib] ==> [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib]
+  implicit libs: [stdc++;m;dl;c;dl]
+  implicit dirs: [/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/lib/gcc/aarch64-linux-android/4.9.x;/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib64;/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/aarch64-linux-android/lib;/Users/mh/phonegap/android-sdk/adt-bundle-mac-x86_64-20131030/sdk/ndk-bundle/platforms/android-21/arch-arm64/usr/lib]
+  implicit fwks: []
+
+
