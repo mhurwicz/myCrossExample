@@ -26,7 +26,7 @@ public:
 	void onFxSelect(int value);
 	void onFxOff();
 	void onFxValue(int value);
-	int returnInt();
+	jint returnInt();
 
 private:
     SuperpoweredAndroidAudioIO *audioSystem;

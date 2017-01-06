@@ -149,7 +149,7 @@ bool SuperpoweredExample::process(short int *output, unsigned int numberOfSample
 }
 
 // fails with SIGILL
-int SuperpoweredExample::returnInt() {
+jint SuperpoweredExample::returnInt() {
     return 50;
 }
 
@@ -181,7 +181,7 @@ extern "C" JNIEXPORT void Java_com_superpowered_crossexample_MainActivity_onFxVa
 	example->onFxValue(value);
 }
 
-extern "C" JNIEXPORT int Java_com_superpowered_crossexample_MainActivity_returnInt(JNIEnv * __unused javaEnvironment, jobject __unused obj) {
+extern "C" JNIEXPORT jint Java_com_superpowered_crossexample_MainActivity_returnInt(JNIEnv * __unused javaEnvironment, jobject __unused obj) {
  // fails with SIGILL
     example->returnInt();
     // below works
