@@ -26,6 +26,7 @@ public:
 	void onFxSelect(int value);
 	void onFxOff();
 	void onFxValue(int value);
+	int returnInt();
 
 private:
     SuperpoweredAndroidAudioIO *audioSystem;
@@ -36,6 +37,8 @@ private:
     float *stereoBuffer;
     unsigned char activeFx;
     float crossValue, volA, volB;
+
+
 };
 
 #endif

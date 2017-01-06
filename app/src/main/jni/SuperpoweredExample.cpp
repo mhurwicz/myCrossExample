@@ -148,6 +148,11 @@ bool SuperpoweredExample::process(short int *output, unsigned int numberOfSample
     return !silence;
 }
 
+// fails with SIGILL
+int SuperpoweredExample::returnInt() {
+    return 50;
+}
+
 static SuperpoweredExample *example = NULL;
 
 extern "C" JNIEXPORT void Java_com_superpowered_crossexample_MainActivity_SuperpoweredExample(JNIEnv *javaEnvironment, jobject __unused obj, jint samplerate, jint buffersize, jstring apkPath, jint fileAoffset, jint fileAlength, jint fileBoffset, jint fileBlength) {
@@ -174,4 +179,11 @@ extern "C" JNIEXPORT void Java_com_superpowered_crossexample_MainActivity_onFxOf
 
 extern "C" JNIEXPORT void Java_com_superpowered_crossexample_MainActivity_onFxValue(JNIEnv * __unused javaEnvironment, jobject __unused obj, jint value) {
 	example->onFxValue(value);
+}
+
+extern "C" JNIEXPORT int Java_com_superpowered_crossexample_MainActivity_returnInt(JNIEnv * __unused javaEnvironment, jobject __unused obj) {
+ // fails with SIGILL
+    example->returnInt();
+    // below works
+ //   return 50;
 }

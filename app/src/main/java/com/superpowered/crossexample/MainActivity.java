@@ -2,6 +2,7 @@ package com.superpowered.crossexample;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.media.AudioManager;
@@ -17,12 +18,19 @@ import android.widget.Button;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
+
+    private static final String TAG = "MainActivity";
     boolean playing = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        int testInt;
+        testInt = returnInt();
+        Log.i(TAG, "testInt");
+        Log.i(TAG, String.valueOf(testInt));
 
         // Get the device's sample rate and buffer size to enable low-latency Android audio output, if available.
         String samplerateString = null, buffersizeString = null;
@@ -120,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
     private native void onFxSelect(int value);
     private native void onFxOff();
     private native void onFxValue(int value);
+    private native int returnInt();
 
     static {
         System.loadLibrary("SuperpoweredExample");
