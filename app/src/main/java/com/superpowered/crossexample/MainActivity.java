@@ -27,11 +27,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        int testInt;
-        testInt = returnInt();
-        Log.i(TAG, "testInt");
-        Log.i(TAG, String.valueOf(testInt));
-
         // Get the device's sample rate and buffer size to enable low-latency Android audio output, if available.
         String samplerateString = null, buffersizeString = null;
         if (Build.VERSION.SDK_INT >= 17) {
@@ -54,6 +49,11 @@ public class MainActivity extends AppCompatActivity {
 
         // Arguments: path to the APK file, offset and length of the two resource files, sample rate, audio buffer size.
         SuperpoweredExample(Integer.parseInt(samplerateString), Integer.parseInt(buffersizeString), getPackageResourcePath(), fileAoffset, fileAlength, fileBoffset, fileBlength);
+
+        int testInt;
+        testInt = returnInt();
+        Log.i(TAG, "testInt");
+        Log.i(TAG, String.valueOf(testInt));
 
         // crossfader events
         final SeekBar crossfader = (SeekBar)findViewById(R.id.crossFader);
@@ -91,6 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 onFxSelect(radioGroup.indexOfChild(checkedRadioButton));
             }
         });
+
     }
 
     public void SuperpoweredExample_PlayPause(View button) {  // Play/pause.
