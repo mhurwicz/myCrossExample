@@ -15,12 +15,23 @@
         android:onClick="SuperpoweredExample_PlayPause"
         android:text="PLAY" />
 
+    <Button
+        android:id="@+id/returnInt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:onClick="SuperpoweredExample_doReturnInt"
+        android:layout_below="@+id/playPause"
+        android:text="ReturnInt" />
+
+
     <SeekBar
         android:id="@+id/crossFader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@+id/playPause"
+        android:layout_below="@+id/returnInt"
         android:layout_marginTop="35dp" />
 
     <RadioGroup

@@ -50,11 +50,6 @@ public class MainActivity extends AppCompatActivity {
         // Arguments: path to the APK file, offset and length of the two resource files, sample rate, audio buffer size.
         SuperpoweredExample(Integer.parseInt(samplerateString), Integer.parseInt(buffersizeString), getPackageResourcePath(), fileAoffset, fileAlength, fileBoffset, fileBlength);
 
-        int testInt;
-        testInt = returnInt();
-        Log.i(TAG, "testInt");
-        Log.i(TAG, String.valueOf(testInt));
-
         // crossfader events
         final SeekBar crossfader = (SeekBar)findViewById(R.id.crossFader);
         if (crossfader != null) crossfader.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
@@ -92,6 +87,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+
+    public void SuperpoweredExample_doReturnInt(View button) {
+        int testInt;
+        testInt = returnInt();
+        Log.i(TAG, "testInt");
+        Log.i(TAG, String.valueOf(testInt));
+        Button r = (Button) findViewById(R.id.returnInt);
+        if (r != null) r.setText(String.valueOf(testInt));
     }
 
     public void SuperpoweredExample_PlayPause(View button) {  // Play/pause.
