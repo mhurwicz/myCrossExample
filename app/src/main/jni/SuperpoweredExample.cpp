@@ -150,6 +150,7 @@ bool SuperpoweredExample::process(short int *output, unsigned int numberOfSample
 
 // fails with SIGILL
 jint SuperpoweredExample::returnInt() {
+    __android_log_print(ANDROID_LOG_VERBOSE, "CrossExample ", "returnInt");
     return 50;
 }
 
